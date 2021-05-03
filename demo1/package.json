@@ -1,0 +1,16 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
