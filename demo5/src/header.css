@@ -1,0 +1,7 @@
+
+.header:nth-child(odd){
+    color:red;
+}
+body{
+    background: palevioletred;
+}

@@ -1,10 +1,9 @@
-const shuchang = require("./image/pic.jpeg") 
-console.log(shuchang.default)
+import shuchang  from "./image/pic.jpeg"
+console.log(shuchang)
 function Footer(){
     let dom = document.getElementById("app")
     let img = document.createElement("img")
-    img.src = shuchang.default
+    img.src = shuchang
     dom.appendChild(img)
 }
-// export default Footer
-module.exports = Footer
+export default Footer

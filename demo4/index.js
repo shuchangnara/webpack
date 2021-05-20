@@ -1,7 +1,9 @@
-import header from "./src/header.js";
-import content from "./src/content.js"
-const footer = require("./src/footer.js")
+// import header from "./src/header.js";
+// import content from "./src/content.js"
+// const footer = require("./src/footer.js")
 
-new header()
-new content()
-new footer()
+// new header()
+// new content()
+// new footer()
+
+console.log(123)

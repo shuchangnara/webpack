@@ -7,6 +7,7 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./index.js":
@@ -15,19 +16,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_header_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/header.js */ \"./src/header.js\");\n/* harmony import */ var _src_content_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/content.js */ \"./src/content.js\");\n\n\nconst footer = __webpack_require__(/*! ./src/footer.js */ \"./src/footer.js\")\n\nnew _src_header_js__WEBPACK_IMPORTED_MODULE_0__.default()\nnew _src_content_js__WEBPACK_IMPORTED_MODULE_1__.default()\nnew footer()\n\n\n//# sourceURL=webpack://demo1/./index.js?");
-
-/***/ }),
-
-/***/ "./src/image/pic.jpeg":
-/*!****************************!*\
-  !*** ./src/image/pic.jpeg ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/pic_030_src/image/.jpeg\");\n\n//# sourceURL=webpack://demo1/./src/image/pic.jpeg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_header_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./src/header.js */ \"./src/header.js\");\n/* harmony import */ var _src_content_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/content.js */ \"./src/content.js\");\n/* harmony import */ var _src_footer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/footer.js */ \"./src/footer.js\");\n\n\n\n\nnew _src_header_js__WEBPACK_IMPORTED_MODULE_0__.default()\nnew _src_content_js__WEBPACK_IMPORTED_MODULE_1__.default()\nnew _src_footer_js__WEBPACK_IMPORTED_MODULE_2__.default()\n\n\n//# sourceURL=webpack://demo1/./index.js?");
 
 /***/ }),
 
@@ -37,7 +26,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction Content(){\n    let dom = document.getElementById(\"app\")\n    let content = document.createElement(\"div\")\n    content.innerText = \"我是内容\"\n    dom.appendChild(content)\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Content);\n\n//# sourceURL=webpack://demo1/./src/content.js?");
 
 /***/ }),
@@ -46,9 +34,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*!***********************!*\
   !*** ./src/footer.js ***!
   \***********************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("const shuchang = __webpack_require__(/*! ./image/pic.jpeg */ \"./src/image/pic.jpeg\") \nconsole.log(shuchang.default)\nfunction Footer(){\n    let dom = document.getElementById(\"app\")\n    let img = document.createElement(\"img\")\n    img.src = shuchang.default\n    dom.appendChild(img)\n}\n// export default Footer\nmodule.exports = Footer\n\n//# sourceURL=webpack://demo1/./src/footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _image_pic_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./image/pic.jpeg */ \"./src/image/pic.jpeg\");\n\nconsole.log(_image_pic_jpeg__WEBPACK_IMPORTED_MODULE_0__)\nfunction Footer(){\n    let dom = document.getElementById(\"app\")\n    let img = document.createElement(\"img\")\n    img.src = _image_pic_jpeg__WEBPACK_IMPORTED_MODULE_0__\n    dom.appendChild(img)\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);\n\n\n//# sourceURL=webpack://demo1/./src/footer.js?");
 
 /***/ }),
 
@@ -58,8 +46,17 @@ eval("const shuchang = __webpack_require__(/*! ./image/pic.jpeg */ \"./src/image
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction Header(){\n    let dom = document.getElementById(\"app\")\n    let header = document.createElement(\"div\")\n    header.innerText = \"我是头部\"\n    dom.appendChild(header)\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n//# sourceURL=webpack://demo1/./src/header.js?");
+
+/***/ }),
+
+/***/ "./src/image/pic.jpeg":
+/*!****************************!*\
+  !*** ./src/image/pic.jpeg ***!
+  \****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"static/pic030.jpeg\";\n\n//# sourceURL=webpack://demo1/./src/image/pic.jpeg?");
 
 /***/ })
 
